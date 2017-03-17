@@ -1,0 +1,47 @@
+/*-- about page --*/
+.about-slide1 .u-fitBackgroundImage {
+    background-image: url("../images/1---About-Top-Section.png"); 
+	padding-bottom: 41.495%;
+}
+.about-slide2 .u-fitBackgroundImage {
+    background-image: url("../images/2---What-Do-You-Get-With-Kawaii-Kondom.png"); 
+	padding-bottom: 65.718%;
+}
+.about-slide3 .u-fitBackgroundImage {
+    background-image: url("../images/Comic-1-Hipsters-and-Julia.png"); 
+	height: 592px;
+	width: 1307px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.about-slide4 .u-fitBackgroundImage {
+    background-image: url("../images/Comic-2-Dot-Dot-Dot.png"); 
+	height: 576px;
+	width: 526px;
+	max-width: 100%;
+	margin: 100px auto 0 auto;
+}
+.about-slide5 .u-fitBackgroundImage {
+    background-image: url("../images/Comic-3-Drawing-Julia.png"); 
+	height: 1082px;
+	width: 1082px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.about-slide6 .u-fitBackgroundImage {
+    background-image: url("../images/Comic-4-Senior-Show.png"); 
+	height: 1183px;
+	width: 1246px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+.about-slide7 .u-fitBackgroundImage {
+    background-image: url("../images/Comic-5-Do-You-Want-A-Bigger-Deck.png"); 
+	height: 1259px;
+	width: 987px;
+	max-width: 100%;
+	margin: 100px auto 0 auto;
+}
+.about-slide8 .goToIndiegogoButton {
+	margin: 0 auto;
+}

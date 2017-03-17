@@ -1,0 +1,266 @@
+body {
+	background: url("../images/Seamless-Polka-Dot-Pattern.jpg");
+	background-attachment: fixed;
+}
+
+/*--- UTILITIES ---*/
+.clearfix:after {
+	content: " "; /* Older browser do not support empty content */
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+.u-maxWidth {
+	max-width: 800px;
+}
+.u-relative {
+	position: relative;
+}
+.u-pullLeft {
+	float: left;
+}
+.u-pullRight {
+	float: right;
+}
+.u-removeText {
+	text-indent: -9999px;
+}
+.u-center {
+	margin: 0 auto;
+	text-align: center; 
+	           list-style-type: none;
+}
+.u-fitBackgroundImage {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+}
+
+.u-noSpacing{
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+}
+
+.logo {
+    width: 319px;
+    height: 147px;
+	margin: 370px;
+	margin-left: calc(-50% + 20px);
+    background: url("../images/logo.png");
+}
+
+/*--- GENERAL INDEX/LANDING STYLING ---*/
+.enterImage {
+	display: block;
+    width: 185px;
+    height: 376px;
+    background: url("../images/mascot1.png");
+    position: absolute;
+    top:-60px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.enterImage:hover {
+    background: url("../images/mascot2.png");
+}
+.enterImage:hover::after {
+    content: "";
+    width: 239px;
+    height: 170px;
+    background: url("../images/speech-bubble.png");
+    top: -110px;
+    left: -199px;
+    position: absolute;
+    display: inline-block;	
+}
+
+/*--- GENERAL HOMEPAGE STYLING ---*/
+.navContainer {
+	background: #ECBDBD;
+}
+.navContainer nav {
+	max-width: 1200px;
+	padding: 0 20px;
+	margin: 0 auto;
+}
+.logoContainer:hover .enterImage {
+    background-image: url("../images/mascot2.png");
+}
+.navContainer .logo {
+    width: 319px;
+    height: 147px;
+	margin: 0;
+}
+.navContainer .enterImage {
+	position: static;
+	background-size: contain;
+    height: 145px;
+	width: 70px;
+	margin: 0;
+}
+.navContainer .enterImage:hover::after {
+	display: none;
+}
+.navContainer ul {
+	margin: 0px;
+	padding: 0px;
+}
+.navContainer li {
+	list-style-type: none;
+}
+.navContainer ul a:hover {
+	border-bottom: 2px solid #000;
+}
+.navContainer .nav-button {
+	display: block;
+	height: 131px;
+	margin-left: 30px;
+}
+.navContainer .nav-about {
+	background: url("../images/about-button.png");
+	width: 115px;
+}
+.navContainer .nav-contact {
+	background: url("../images/contact-button.png");
+	width: 219px;
+}
+.navContainer .nav-indiegogo {
+	background: url("../images/indiegogo-button.png");
+	width: 169px;
+}
+
+.slide {
+	margin: 0 auto;
+	padding: 100px 50px;
+}
+
+/*--- HERO SLIDE ---*/
+.heroSlide {
+	max-width: 1200px; 
+}
+.heroSlide-heroImage {
+	background: url("../images/hero-images/1.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 40%;
+	max-width: 496px;
+	padding-bottom: 40%;
+}
+.heroSlide-heroText {
+	margin-left: 50px;
+	background: url("../images/hero-text.png") no-repeat;
+	background-size: contain;
+	background-position: left; 
+	width: calc(60% - 50px);
+	padding-bottom: 30%;
+}
+
+/*--- EXPLANATION SLIDE ---*/
+.explanationBackground {
+	background: #fff ;
+	position: relative;
+}
+.explanationBackground::after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../images/explanation-background.png"); 
+	background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity : 0.4;
+}
+.explanationBackground-content {
+	background-image: url("../images/Kondom-2nd-Section-Text.png");
+	padding-bottom: 63.950%;
+}
+
+/*--- SUPPORT INDIEGOGO SLIDE ---*/
+.indiegogoBackground {
+	background: #EC0D78;
+}
+.indiegogoLogo {
+	background-image: url("../images/Indiegogo-Logo.png") ;
+	padding-bottom: 54.5%;
+}
+.indiegogoText {
+	background-image: url("../images/Indiegogo-Text.png") ;
+	padding-bottom: 18%;
+}
+.goToIndiegogoButton {
+	background: url("../images/go-to-indiegogo.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+	margin: 50px auto 0 auto;
+	max-width: 526px;
+	height: 128px;
+	display: block;
+}
+
+/*--- SOCIAL MEDIA SLIDE ---*/
+.socialBackground {
+	background: #eee;
+}
+.socialList {
+	width: 330px; /* (iconWidth+icon margin)*3 */
+	margin: 0 auto;
+}
+.icon {
+	width: 88px;
+	height: 88px;
+	margin-right: 20px;
+	display: block;
+}
+.iconFacebook {
+    background-image: url("../images/facebook-icon.png"); 
+}
+.iconTwitter {
+    background-image: url("../images/twitter-icon.png"); 
+}
+.iconIndiegogo {
+    background-image: url("../images/indiegogo-icon.png"); 
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+	.logoContainer {
+		width: 390px;
+		margin: 0 auto;
+		padding: 20px 0;
+		float: none !important;
+	}
+	.menuContainer {
+	position: relative;
+		left: -50%;
+	}
+	.menuContainer ul {
+	position: relative;
+		left: 50%;
+		
+	}
+
+}
+@media screen and (max-width: 650px) {
+	.menuContainer {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.menuContainer li {
+		float: none !important;
+	}
+	.navContainer .nav-button {
+		width: 100%;
+		margin-left: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+}

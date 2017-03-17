@@ -1,0 +1,66 @@
+/*--- CONTACT PAGE ---*/
+.contactList li a {
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 100px;
+	margin-bottom: 150px;
+	position: relative;
+	z-index: 2;
+}
+.contactFacebook {
+    background-image: url("../images/Facebook-Link.png"); 
+	height: 198px;
+	display: block;
+}
+.contactTwitter {
+    background-image: url("../images/Twitter-Link.png"); 
+	height: 182px;
+	display: block;
+}
+.contactIndiegogo {
+    background-image: url("../images/Indiegogo-Link.png"); 
+	height: 110px;
+	display: block;
+}
+.contactEmail {
+    background-image: url("../images/Email-Link.png"); 
+	height: 172px;
+	display: block;
+}
+.contactStickers > div{
+	position: absolute;
+	z-index: 1;
+}
+.contactStickers > div:nth-child(even){
+	left: -500px;
+}
+.contactStickers > div:nth-child(odd){
+	right: -500px;
+}
+.sticker1 {
+	top: -100px;
+    background-image: url("../images/Like-Us-On-Facebook-Hot-Dog.png"); 
+	width: 454px;
+	height: 479px;
+	margin-right: 100px;
+}
+.sticker2 {
+	top: 200px;
+    background-image: url("../images/Follow-Us-On-Twitter.png"); 
+	width: 732px;
+	height: 439px;
+}
+.sticker3 {
+	top: 500px;
+    background-image: url("../images/Support-us-on-Indiegogo.png"); 
+	width: 650px;
+	height: 529px;
+}
+.sticker4 {
+	top: 800px;
+    background-image: url("../images/Email-Water-Bottle.png"); 
+	width: 536px;
+	height: 566px;
+	margin-left: 100px;
+}
